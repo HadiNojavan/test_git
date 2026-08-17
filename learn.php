@@ -29,10 +29,13 @@ to push our local committ to github
                 git push -u origin main
 
 to see out list of branch    git branch 
-to add new branch                       git branch name 
+to add new branch                       git branch-name 
 to go there               git chekout name-branch
  new branch will inherit form the main branch
  to change this way                 git branch-name branch-source
 
 
- to add new branch to our remote repo git push -u origin feature
+ to add new branch to our remote repo       git push -u origin feature
+ once you add new branch and edit one file 
+    write git add learn.(only  the edited file)   git commit .m "your massage"    then  git push
+    we only see last edited file in reo 
