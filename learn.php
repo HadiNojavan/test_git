@@ -23,7 +23,7 @@ if you made change and you want to discard it               git checkout -f main
     remote repo store on the server like github
 
 git automaticlly name remote repo as origin 
-to add github           git remote add name_of https://github.com/HadiNojavan/test_git.git
+to add github           git remote add name_of https://github.com/HadiNojavan/test_git.git we say name origin
 
 to push our local committ to github
                 git push -u origin main
@@ -32,4 +32,7 @@ to see out list of branch    git branch
 to add new branch                       git branch name 
 to go there               git chekout name-branch
  new branch will inherit form the main branch
- to change this way                 git branch name source-branch
+ to change this way                 git branch-name branch-source
+
+
+ to add new branch to our remote repo git push -u origin feature
