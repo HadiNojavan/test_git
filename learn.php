@@ -46,3 +46,9 @@ if we want to update our local brach beacuse some one add new file to git :
 i made new branch call cd_read.md and i inherit from main branch 
 then i made some change on read.md then commit it to see changes 
 now i can merge my whole folder to main folder to add new line that i wrote it in read.md 
+
+The branch you see in VSCode is your local branch (e.g., features).
+
+Deleting the branch on GitHub only removes the remote branch (e.g., origin/features).
+
+Your local branch still exists unless you explicitly delete it.
