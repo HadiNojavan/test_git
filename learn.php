@@ -38,4 +38,7 @@ to go there               git chekout name-branch
  to add new branch to our remote repo       git push -u origin feature
  once you add new branch and edit one file 
     write git add learn.(only  the edited file)   git commit .m "your massage"    then  git push
-    we only see last edited file in reo 
+    we only see last edited file in reo     
+
+if we want to update our local brach beacuse some one add new file to git :
+    git pull 
