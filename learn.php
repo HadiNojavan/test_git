@@ -42,3 +42,7 @@ to go there               git chekout name-branch
 
 if we want to update our local brach beacuse some one add new file to git :
     git pull 
+
+i made new branch call cd_read.md and i inherit from main branch 
+then i made some change on read.md then commit it to see changes 
+now i can merge my whole folder to main folder to add new line that i wrote it in read.md 
