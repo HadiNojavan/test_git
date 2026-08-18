@@ -43,10 +43,18 @@ to go there               git chekout name-branch
 if we want to update our local brach beacuse some one add new file to git :
     git pull 
 
+
+i made new branch call cd_read.md and i inherit from main branch 
+then i made some change on read.md then commit it to see changes 
+now i can merge my whole folder to main folder to add new line that i wrote it in read.md 
+
+The branch you see in VSCode is your local branch (e.g., features).
+Deleting the branch on GitHub only removes the remote branch (e.g., origin/features).
+Your local branch still exists unless you explicitly delete it. use git brancd -d name-branch
+
 The branch you see in VSCode is your local branch (e.g., features).
 Deleting the branch on GitHub only removes the remote branch (e.g., origin/features).
 Your local branch still exists unless you explicitly delete it.
-
 
 
 main is the default branch name in Git (previously master).
@@ -54,3 +62,4 @@ It’s the main line of development. When you clone or create a repository, you 
 
 origin is the default name Git uses for the remote repository (the one on GitHub, GitLab, etc.).
 It’s just an alias (shortcut) for the remote URL. Instead of typing the full URL every time, you use origin.
+
