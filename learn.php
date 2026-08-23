@@ -63,3 +63,6 @@ It’s the main line of development. When you clone or create a repository, you 
 origin is the default name Git uses for the remote repository (the one on GitHub, GitLab, etc.).
 It’s just an alias (shortcut) for the remote URL. Instead of typing the full URL every time, you use origin.
 
+git pull origin here
+
+when many developer edit same line code -> merge conflict
